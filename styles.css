@@ -1,0 +1,7 @@
+:root {
+    --ff: 1.1rem; /* 18 px */
+}
+
+body {
+    font-size: var(--ff);
+}
