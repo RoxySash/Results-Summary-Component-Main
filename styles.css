@@ -1,7 +1,9 @@
 :root {
-    --ff: 1.1rem; /* 18 px */
+    --fs: 1.1rem; /* 18 px */
+    --ff: "Hanken Grotesk", sans-serif;
 }
 
 body {
-    font-size: var(--ff);
+    font-size: var(--fs);
+    font-family: var(--ff);
 }
