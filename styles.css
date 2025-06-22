@@ -7,3 +7,7 @@ body {
     font-size: var(--fs);
     font-family: var(--ff);
 }
+
+.blue-btn {
+    border: none;
+}
