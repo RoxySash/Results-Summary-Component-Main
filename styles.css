@@ -27,12 +27,14 @@
 body {
   font-size: var(--fs);
   font-family: var(--ff);
+  margin: 0;
 }
 .container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 .blue-btn {
   border: none;
