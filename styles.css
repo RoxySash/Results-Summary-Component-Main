@@ -77,3 +77,14 @@ p span {
 .card-one {
     background-color: rgb(251, 223, 220);
 }
+
+
+@media (min-width: 760px) {
+    .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+}
