@@ -13,6 +13,11 @@
   --lightslateblue-bg: hsl(252, 100%, 67%);
   --lightroyalblue-bg: hsl(241, 81%, 54%);
 
+  /* hsla */
+
+  --lightslateblue-bg-tr: hsla(252, 100%, 67%, 1);
+  --lightroyalblue-bg-tr: hsla(241, 81%, 54%, 1);
+
   --violetblue-circle: hsla(256, 72%, 46%, 1);
   --persianblue-circle: hsla(241, 72%, 46%, 0);
 
@@ -85,6 +90,11 @@ p span {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    max-width: 100%;
+    width: 1200px;
+    height: 600px;
+
 }
+
+
 }
