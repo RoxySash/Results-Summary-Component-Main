@@ -56,6 +56,16 @@ body {
     border-bottom-right-radius: 30px;
     text-align: center;
 }
+
+.article-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    width: 100%;
+}
+
 .fading-circle {
     background: linear-gradient(var(--violetblue-circle), var(--persianblue-circle));
     width: 134px;
@@ -71,8 +81,10 @@ body {
 .stats {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    width: 50%;
+    border: 2px solid green;
 }
 
 p span {
@@ -81,6 +93,11 @@ p span {
 
 .card-one {
     background-color: rgb(251, 223, 220);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 
