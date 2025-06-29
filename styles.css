@@ -1,5 +1,6 @@
 :root {
   --fs: 1.1rem; /* 18 px */
+  --fs-large: 1.5rem;
   --ff: "Hanken Grotesk", sans-serif;
 
   --lightred: hsl(0, 100%, 67%);
@@ -91,6 +92,10 @@ p span {
     color: var(--paleblue);
 }
 
+.big-number {
+    font-size: var(--fs-large);
+}
+
 .card-one {
     background-color: rgb(251, 223, 220);
     display: flex;
@@ -114,4 +119,4 @@ p span {
 }
 
 
-}
+ }
