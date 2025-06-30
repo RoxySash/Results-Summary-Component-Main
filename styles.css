@@ -1,6 +1,6 @@
 :root {
   --fs: 1.1rem; /* 18 px */
-  --fs-large: 1.5rem;
+  --fs-large: 3rem;
   --ff: "Hanken Grotesk", sans-serif;
 
   --lightred: hsl(0, 100%, 67%);
@@ -28,6 +28,9 @@
   --paleblue: hsl(221, 100%, 96%);
   --lightlavender: hsl(241, 100%, 89%);
   --darkgrayblue: hsl(224, 30%, 27%);
+
+  --lightlavender-tr: hsla(224, 30%, 27%, 1);
+
 }
 
 body {
@@ -35,6 +38,7 @@ body {
   font-family: var(--ff);
   margin: 0;
 }
+
 .container{
     display: flex;
     flex-direction: column;
@@ -42,6 +46,7 @@ body {
     align-items: center;
     width: 100%;
 }
+
 .blue-btn {
   border: none;
   background-color: var(--darkgrayblue);
@@ -76,8 +81,26 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    line-height: 0;
 }
 
+.big-number {
+    font-size: var(--fs-large);
+    padding-bottom: 0;
+    color: var(--white);
+}
+
+.result-percentage {
+    padding-top: 0;
+    margin-top: 0;
+    color: var(--lightslateblue-bg-tr);
+}
+
+.artcile-top-text {
+    color: var(--paleblue);
+    width: 60%;
+
+}
 
 .stats {
     display: flex;
@@ -92,9 +115,7 @@ p span {
     color: var(--paleblue);
 }
 
-.big-number {
-    font-size: var(--fs-large);
-}
+
 
 .card-one {
     background-color: rgb(251, 223, 220);
@@ -107,7 +128,7 @@ p span {
 
 
 @media (min-width: 760px) {
-    .container{
+    .container {
     display: flex;
     flex-direction: row;
     justify-content: center;
