@@ -116,6 +116,10 @@ body {
     border: 2px solid green;
 }
 
+.red {
+    color: var(--lightred);
+}
+
 p span {
     color: var(--paleblue);
 }
