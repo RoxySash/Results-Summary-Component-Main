@@ -116,10 +116,22 @@ body {
     border: 2px solid green;
 }
 
+
 .red {
     color: var(--lightred);
 }
 
+.yellow {
+    color: var(--orangeyyellow);
+
+}
+.green {
+    color: var(--greenteal);
+}
+
+.blue {
+    color: var(--cobaltblue);
+}
 p span {
     color: var(--paleblue);
 }
@@ -133,6 +145,7 @@ p span {
     justify-content: center;
     align-items: center;
     width: 100%;
+    border: 2px solid black;
 }
 
 
