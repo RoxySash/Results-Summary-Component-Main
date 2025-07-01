@@ -50,6 +50,11 @@ body {
 .blue-btn {
   border: none;
   background-color: var(--darkgrayblue);
+  width: 80%;
+  height: 55px;
+  font-size: var(--fs);
+  color: var(--white);
+  border-radius: 15px;
 }
 
 .article-top {
