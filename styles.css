@@ -144,8 +144,9 @@ p span {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    border: 2px solid black;
+    width: 80%;
+    border-radius: 15px;
+    
 }
 
 
