@@ -8,7 +8,7 @@
   --greenteal: hsl(166, 100%, 37%);
   --cobaltblue: hsl(234, 85%, 45%);
 
-  --lightred-transparent: hsla(0, 100%, 67%, 1);
+  --lightred-transparent: rgb(255, 191, 255);
   /* Gradients */
 
   --lightslateblue-bg: hsl(252, 100%, 67%);
@@ -63,8 +63,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
     text-align: center;
 }
 
@@ -75,6 +75,8 @@ body {
     align-items: center;
     border: 2px solid red;
     width: 100%;
+    padding-left: 33px;
+    padding-right: 33px;
 }
 
 .fading-circle {
@@ -138,19 +140,29 @@ p span {
 
 
 
-.card-one {
-    background-color: rgb(251, 223, 220);
+.card {
+   
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     width: 80%;
+    height: 51px;
     border-radius: 15px;
     
 }
 
+.one {
+    background-color: var(--lightred-transparent);
+} 
+
 
 @media (min-width: 760px) {
+
+    body {
+        background-color: var(--paleblue);
+    }
+
     .container {
     display: flex;
     flex-direction: row;
@@ -161,6 +173,11 @@ p span {
     height: 600px;
 
 }
+.article-top {
+    border-radius: 40px;
+}
 
-
+.article-bottom {
+    background-color: var(--white);
+}
  }
