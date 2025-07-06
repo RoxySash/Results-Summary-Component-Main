@@ -156,6 +156,10 @@ p span {
     background-color: var(--lightred-transparent);
 } 
 
+span {
+    display: flex;
+    justify-content: space-around;
+}
 
 @media (min-width: 760px) {
 
