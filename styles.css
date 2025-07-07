@@ -118,6 +118,14 @@ body {
     border: 2px solid green;
 }
 
+.percentage {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    
+}
 
 .red {
     color: var(--lightred);
