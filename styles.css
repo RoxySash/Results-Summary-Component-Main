@@ -8,7 +8,10 @@
   --greenteal: hsl(166, 100%, 37%);
   --cobaltblue: hsl(234, 85%, 45%);
 
-  --lightred-transparent: rgb(255, 191, 255);
+  --lightred-alpha: hsla(0, 100%, 67%, 0.2);
+  --orangeyyellow-alpha: hsla(39, 100%, 56%, 0.2);
+  --greenteal-alpha: hsla(166, 100%, 37%, 0.2);
+  --cobaltblue: hsla(234, 85%, 45%, 0.2);
   /* Gradients */
 
   --lightslateblue-bg: hsl(252, 100%, 67%);
@@ -112,10 +115,14 @@ body {
 .stats {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    width: 50%;
+    width: 80%;
     border: 2px solid purple;
+    background-color: var(--lightred-alpha);
+    border-radius: 10px;
+    padding-bottom: 10px;
+    height: 51px;
 }
 
 .percentage {
@@ -127,6 +134,10 @@ body {
     
 }
 
+.react-card {
+    display: flex;
+    
+}
 .red {
     color: var(--lightred);
 }
