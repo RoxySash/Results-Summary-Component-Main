@@ -8,10 +8,10 @@
   --greenteal: hsl(166, 100%, 37%);
   --cobaltblue: hsl(234, 85%, 45%);
 
-  --lightred-alpha: hsla(0, 100%, 67%, 0.2);
+  --lightred-alpha: hsla(0, 100%, 67%, 0.12);
   --orangeyyellow-alpha: hsla(39, 100%, 56%, 0.2);
   --greenteal-alpha: hsla(166, 100%, 37%, 0.2);
-  --cobaltblue: hsla(234, 85%, 45%, 0.2);
+  --cobaltblue-alpha: hsla(234, 85%, 45%, 0.2);
   /* Gradients */
 
   --lightslateblue-bg: hsl(252, 100%, 67%);
@@ -125,6 +125,13 @@ body {
     height: 51px;
 }
 
+.memory {
+    background-color: var(--orangeyyellow-alpha);
+}
+
+.verbal {
+    background-color: var(--greenteal-alpha);
+}
 .percentage {
     display: flex;
     flex-direction: row;
@@ -136,7 +143,7 @@ body {
 
 .react-card {
     display: flex;
-    
+
 }
 .red {
     color: var(--lightred);
@@ -194,7 +201,7 @@ span {
     max-width: 100%;
     width: 1200px;
     height: 600px;
-
+        
 }
 .article-top {
     border-radius: 40px;
