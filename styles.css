@@ -132,6 +132,9 @@ body {
 .verbal {
     background-color: var(--greenteal-alpha);
 }
+.visual {
+    background-color: var(--cobaltblue-alpha);
+}
 .percentage {
     display: flex;
     flex-direction: row;
