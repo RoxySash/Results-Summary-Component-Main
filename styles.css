@@ -118,13 +118,15 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 80%;
-    border: 2px solid purple;
-    background-color: var(--lightred-alpha);
+    
     border-radius: 10px;
     padding-bottom: 10px;
     height: 51px;
 }
 
+.reaction {
+    background-color: var(--lightred-alpha);
+}
 .memory {
     background-color: var(--orangeyyellow-alpha);
 }
@@ -144,9 +146,13 @@ body {
     
 }
 
-.react-card {
+.card {
     display: flex;
 
+}
+
+img {
+    padding-right: 10px;
 }
 .red {
     color: var(--lightred);
@@ -164,7 +170,7 @@ body {
     color: var(--cobaltblue);
 }
 p span {
-    color: var(--paleblue);
+    color: var(--darkgrayblue);
 }
 
 
@@ -194,6 +200,7 @@ span {
 
     body {
         background-color: var(--paleblue);
+        min-height: 0 auto;
     }
 
     .container {
