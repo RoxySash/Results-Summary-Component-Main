@@ -57,7 +57,7 @@ body {
   height: 55px;
   font-size: var(--fs);
   color: var(--white);
-  border-radius: 15px;
+  border-radius: 30px;
 }
 
 .article-top {
@@ -69,6 +69,11 @@ body {
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
     text-align: center;
+}
+
+.artcile-top-text {
+    padding-top: 0;
+    margin-top: 0;
 }
 
 .article-bottom {
@@ -121,7 +126,7 @@ body {
     /* try to get these on the other side goog night work on it tomorrow*/
     border-radius: 10px;
     padding-bottom: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     height: 51px;
 }
 
@@ -195,6 +200,10 @@ p span {
 span {
     display: flex;
     justify-content: space-around;
+}
+
+.bottom-title {
+    text-align: left;
 }
 
 @media (min-width: 760px) {
