@@ -40,6 +40,7 @@ body {
   font-size: var(--fs);
   font-family: var(--ff);
   margin: 0;
+  background-color: white; /*delete after*/
 }
 
 .container{
@@ -48,6 +49,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
+
 }
 
 .blue-btn {
@@ -69,6 +71,7 @@ body {
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
     text-align: center;
+    
 }
 
 .artcile-top-text {
