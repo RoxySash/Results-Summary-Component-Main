@@ -1,7 +1,8 @@
 :root {
   --fs: 1.1rem; /* 18 px */
-  --fs-large: 3rem;
+  --fs-large: 3.5rem;
   --fs-small: 1.5rem;
+  --fs-medium: 1.3rem;
   --ff: "Hanken Grotesk", sans-serif;
 
   --lightred: hsl(0, 100%, 67%);
@@ -33,8 +34,8 @@
   --lightlavender: hsl(241, 100%, 89%);
   --darkgrayblue: hsl(224, 30%, 27%);
 
-  --lightlavender-tr: hsla(224, 30%, 27%, 1);
-    --darkgrayblue-alpha: hsla(224, 30%, 27%, 0.5);
+  --lightlavender-tr: hsla(241, 100%, 89%, 0.9);
+  --darkgrayblue-alpha: hsla(224, 30%, 27%, 0.5);
 }
 
 body {
@@ -44,14 +45,12 @@ body {
   background-color: white; /*delete after*/
 }
 
-.container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: auto;
-    
-    
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
 }
 
 .blue-btn {
@@ -66,172 +65,180 @@ body {
 }
 
 .article-top {
-    background: linear-gradient(var(--lightslateblue-bg), var(--lightroyalblue-bg));
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-bottom-left-radius: 40px;
-    border-bottom-right-radius: 40px;
-    text-align: center;
-    box-shadow: 0 60px 30px -10px var(--cobaltblue-alpha);
-    padding: 31px
+  background: linear-gradient(
+    var(--lightslateblue-bg),
+    var(--lightroyalblue-bg)
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  text-align: center;
+  box-shadow: 0 60px 30px -10px var(--cobaltblue-alpha);
+  padding: 31px;
+}
+
+.top-title {
+  font-size: var(--fs-medium);
+  color: var(--lightlavender);
 }
 
 .article-top-text {
-    padding-top: 0;
-    margin-top: 0;
-    color: var(--white);
+  padding-top: 0;
+  margin-top: 0;
+  color: var(--lightlavender);
+ 
 }
 
 .article-bottom {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-    width: 100%;
-    padding-left: 33px;
-    padding-right: 33px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  padding-left: 33px;
+  padding-right: 33px;
 }
 
 .fading-circle {
-    background: linear-gradient(var(--violetblue-circle), var(--persianblue-circle));
-    width: 134px;
-    height: 134px;
-    border-radius: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    line-height: 0;
+  background: linear-gradient(
+    var(--violetblue-circle),
+    var(--persianblue-circle)
+  );
+  width: 134px;
+  height: 134px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 0;
 }
 
 .big-number {
-    font-size: var(--fs-large);
-    padding-bottom: 0;
+  font-size: var(--fs-large);
+  padding-bottom: 0;
+  margin-bottom: 30px;
+  color: var(--white);
+}
+
+.middle-title {
     color: var(--white);
 }
 
 .result-percentage {
-    padding-top: 0;
-    margin-top: 0;
-    color: var(--lightslateblue-bg-tr);
+  padding-top: 0;
+  margin-top: 0;
+  color: var(--lightlavender-tr);
 }
 
 .artcile-top-text {
-    color: var(--paleblue);
-    width: 60%;
-
+  color: var(--paleblue);
+  width: 50%;
 }
 
 .stats {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 80%;
-    /* try to get these on the other side goog night work on it tomorrow*/
-    border-radius: 10px;
-    padding-bottom: 10px;
-    margin-bottom: 15px;
-    height: 50px;
-    width: 311px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  /* try to get these on the other side goog night work on it tomorrow*/
+  border-radius: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  height: 50px;
+  width: 311px;
 }
 
 .reaction {
-    background-color: var(--lightred-alpha);
+  background-color: var(--lightred-alpha);
 }
 .memory {
-    background-color: var(--orangeyyellow-alpha);
+  background-color: var(--orangeyyellow-alpha);
 }
 
 .verbal {
-    background-color: var(--greenteal-alpha);
+  background-color: var(--greenteal-alpha);
 }
 .visual {
-    background-color: var(--cobaltblue-alpha);
+  background-color: var(--cobaltblue-alpha);
 }
 .percentage {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    
-    
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .card {
-    float: left; /* doesnt work */
-    
+  float: left; /* doesnt work */
 }
 
 img {
-    padding-right: 10px;
+  padding-right: 10px;
 }
 .red {
-    color: var(--lightred);
+  color: var(--lightred);
 }
 
 .yellow {
-    color: var(--orangeyyellow);
-
+  color: var(--orangeyyellow);
 }
 .green {
-    color: var(--greenteal);
+  color: var(--greenteal);
 }
 
 .blue {
-    color: var(--cobaltblue);
+  color: var(--cobaltblue);
 }
 p span {
-    color: var(--darkgrayblue);
+  color: var(--darkgrayblue);
 }
 
 .ratings {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .grey-rating {
-    color: var(--darkgrayblue-alpha);
+  color: var(--darkgrayblue-alpha);
 }
 .card {
-   
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 51px;
+  border-radius: 15px;
+}
+
+.one {
+  background-color: var(--lightred-transparent);
+}
+
+.bottom-title {
+  border: 3px solid red;
+  margin-left: 0;
+  padding-left: 0;
+  
+}
+
+@media (min-width: 720px) {
+  body {
+    background-color: var(--paleblue);
+    min-height: 0 auto;
+    margin: 0;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 80%;
-    height: 51px;
-    border-radius: 15px;
-    
-}
+  }
 
-.one {
-    background-color: var(--lightred-transparent);
-} 
-
-
-
-.bottom-title {
-    text-align: left;
-}
-
-@media (min-width: 720px) {
-
-    body {
-        background-color: var(--paleblue);
-        min-height: 0 auto;
-        margin: 0;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-       
-
-    }
-
-    .container {
+  .container {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -239,16 +246,12 @@ p span {
     max-width: 720px;
     background-color: var(--white);
     border-radius: 40px;
-
-        
-}
-.article-top {
+  }
+  .article-top {
     border-radius: 40px;
-}
+  }
 
-.article-top {
+  .article-top {
     box-shadow: none;
+  }
 }
-
-
- }
