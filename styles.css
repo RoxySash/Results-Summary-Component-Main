@@ -71,6 +71,7 @@ body {
   text-align: center;
   box-shadow: 0 60px 30px -10px var(--cobaltblue-alpha);
   padding: 31px;
+  max-width: 100%
 }
 
 .top-title {
@@ -91,7 +92,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  border: 3px dotted purple;
+  
   padding-left: 33px;
   padding-right: 33px;
 }
@@ -133,30 +134,34 @@ body {
   width: 50%;
 }
 
+
+
+
 .stats {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  max-width: 80%;
+  max-width: 90%;
   border-radius: 10px;
   padding: 10px;
   margin-bottom: 15px;
   height: 35px;
-  width: 250px;
+  width: 260px;
 }
 
 .blue-btn {
   border: none;
   background-color: var(--darkgrayblue);
   max-width: 80%;
-  width: 250px;
-  height: 35px;
-  padding: 20px;
+  width: 270px;
+  height: 50px;
+  padding: 10px;
   font-size: var(--fxs);
   color: var(--white);
   border-radius: 30px;
   margin-bottom: 20px;
+  
 }
 
 .reaction {
@@ -237,10 +242,11 @@ h3 {
 }
 
 .bottom-title {
-  border: 3px solid red;
-  margin-left: 0;
-  padding-left: 0;
+  
   font-size: var(--fxs);
+  text-align: left;
+  border: 3px dotted blue;
+  
 }
 
 @media (min-width: 720px) {
@@ -259,15 +265,15 @@ h3 {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    max-width: 720px;
+    max-width: 700px;
     background-color: var(--white);
     border-radius: 40px;
-    border: 2px solid red;
+    
     
   }
   .article-top {
     border-radius: 40px;
-    border: 3px dotted blue;
+    
   }
 
   .article-top {
