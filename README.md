@@ -12,11 +12,9 @@ This is a solution to the [Results summary component challenge on Frontend Mento
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
-WORK IN PROGRESS
+
 
 ## Overview
 
@@ -26,11 +24,14 @@ Users should be able to:
 
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
-- **Bonus**: Use the local JSON data to dynamically populate the content
+
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Screenshot of Mobile Version](/assets/images/Screenshot%20Mobile%20Version.png)
+
+
+![Screenshot of Desktop Version](/assets/images/Screenshot%20Desktop%20Version.png)
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
@@ -89,9 +90,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Bluesky - [@yourusername](https://www.twitter.com/yourusername)
 
 
 ## Acknowledgments
