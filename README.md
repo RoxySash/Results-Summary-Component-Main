@@ -33,17 +33,11 @@ Users should be able to:
 
 ![Screenshot of Desktop Version](/assets/images/Screenshot%20Desktop%20Version.png)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/RoxySash/Results-Summary-Component-Main.git)
+- Live Site URL: [Live Site](https://roxysash.github.io/Results-Summary-Component-Main/)
 
 ## My process
 
@@ -52,48 +46,69 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 
 
 
 ### What I learned
 
-I learned how to get hsla value to match the designs
+I learned how to get hsla value to match the designs. It was fun a little confusing at first but reading through some mdn docs really put it in perspective.
 
 ```html
 <h1>Some HTML code I'm proud of</h1>
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+:root {
+  --fs: 1rem; /* 18 px */
+  --fxs: 0.856rem;
+  --fs-large: 3.5rem;
+  --fs-small: 1.4rem;
+  --fs-medium: 1.1rem;
+  --ff: "Hanken Grotesk", sans-serif;
+
+  --lightred: hsl(0, 100%, 67%);
+  --orangeyyellow: hsl(39, 100%, 56%);
+  --greenteal: hsl(166, 100%, 37%);
+  --cobaltblue: hsl(234, 85%, 45%);
+
+  --lightred-alpha: hsla(0, 100%, 67%, 0.1);
+  --orangeyyellow-alpha: hsla(39, 100%, 56%, 0.1);
+  --greenteal-alpha: hsla(166, 100%, 37%, 0.1);
+  --cobaltblue-alpha: hsla(234, 85%, 45%, 0.1);
+  /* Gradients */
+
+  --lightslateblue-bg: hsl(252, 100%, 67%);
+  --lightroyalblue-bg: hsl(241, 81%, 54%);
+
+  /* hsla */
+
+  --lightslateblue-bg-tr: hsla(252, 100%, 67%, 1);
+  --lightroyalblue-bg-tr: hsla(241, 81%, 54%, 1);
+
+  --violetblue-circle: hsla(256, 72%, 46%, 1);
+  --persianblue-circle: hsla(241, 72%, 46%, 0);
+
+  /* Neutral */
+
+  --white: hsl(0, 0%, 100%);
+  --paleblue: hsl(221, 100%, 96%);
+  --lightlavender: hsl(241, 100%, 89%);
+  --darkgrayblue: hsl(224, 30%, 27%);
+
+  --lightlavender-tr: hsla(241, 100%, 89%, 0.9);
+  --darkgrayblue-alpha: hsla(224, 30%, 27%, 0.5);
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+This challenge has a little JS challenge however I will confront it another time. I need to work on these faster and I will do more challenges.
 
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Bluesky - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@RoxySash](https://www.frontendmentor.io/profile/RoxySash)
+- Bluesky - [@RoxaneDev](https://bsky.app/profile/roxanedev.bsky.social)
 
 
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
