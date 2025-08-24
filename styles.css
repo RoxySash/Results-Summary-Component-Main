@@ -148,6 +148,7 @@ body {
   margin-bottom: 15px;
   height: 25px;
   width: 260px;
+  
 }
 
 .blue-btn {
@@ -160,7 +161,7 @@ body {
   font-size: var(--fxs);
   color: var(--white);
   border-radius: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   
 }
 
@@ -180,6 +181,7 @@ body {
 .visual {
   background-color: var(--cobaltblue-alpha);
   font-size: var(--fxs);
+  
 }
 
 .percentage {
@@ -190,7 +192,7 @@ body {
 }
 
 .card {
-  float: left; /* doesnt work */
+  float: left;
 }
 
 img {
