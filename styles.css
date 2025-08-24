@@ -43,7 +43,7 @@ body {
   font-size: var(--fs);
   font-family: var(--ff);
   margin: 0;
-  height: 0 auto;
+  
   background-color: white; /*delete after*/
 }
 
@@ -257,7 +257,7 @@ h3 {
   
 }
 
-@media (min-width: 720px) {
+@media (min-width: 72rem) {
   body {
     background-color: var(--paleblue);
     min-height: 100vh;
